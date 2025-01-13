@@ -146,9 +146,10 @@ SELECT *
 FROM netflix
 WHERE
 	listed_in ILIKE '%documentaries%';
+```
 
-
--- 12. Find All Content Without a Director
+### 12. Find All Content Without a Director
+```
 SELECT * 
 FROM netflix
 WHERE
