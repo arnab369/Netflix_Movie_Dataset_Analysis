@@ -82,7 +82,8 @@ LIMIT 5;
 ```
 
 ### 5. Identify the Longest Movie
-```SELECT * FROM netflix
+```
+SELECT * FROM netflix
 WHERE 
 	type = 'Movie'
 	AND
@@ -106,7 +107,8 @@ WHERE
 ```
 
 ### 8. List All TV Shows with More Than 5 Seasons
-```SELECT *
+```
+SELECT *
 FROM netflix
 WHERE 
 	type = 'TV Show'
